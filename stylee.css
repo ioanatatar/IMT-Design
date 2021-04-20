@@ -1,0 +1,146 @@
+body{
+    background-image: url('bck4.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+}
+a{ 
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+	font-family: cursive;
+    text-decoration: none;
+}
+p{ 
+    text-align: center;
+}
+footer{
+    text-align: center;
+    border: 5px solid rgba(131, 158, 132, 0.7);
+}
+header{
+    background-color:rgba(131, 158, 132, 0.3) ;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: cursive;
+}
+.navbar{
+    margin-bottom: 50px;
+}
+.container{
+    background-color:rgba(131, 158, 132, 0.1) ;
+    border: 2px solid rgba(131, 158, 132, 0.7);
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.about-us-title{
+    font-size: 30px;
+    color: black;
+    font-family: cursive;
+}
+.about-us-subtitle{
+    color: black;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.abotu-us-text{
+    font-size:15px;
+    line-height:22px;
+    color: black;
+    font-family:cursive;
+    margin-top: 20px;
+
+}
+.container1 {
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 5px solid rgba(131, 158, 132, 0.7);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container2 {
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 5px solid rgba(131, 158, 132, 0.7);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container3 {
+        margin-top:10px;
+        margin-bottom:10px;
+        border: 5px solid rgba(131, 158, 132, 0.7);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+.container4 {
+    margin-top:10px;
+    margin-bottom:20px;
+    border: 5px solid rgba(131, 158, 132, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container5{
+   text-align: left;
+}
+.contact-sign{
+
+    border: 2px solid rgb(131, 158, 132);
+}
+.btn{
+    color:black;
+    background-color: rgb(131, 158, 132) ;
+    border-color:rgb(131, 158, 132) ;
+    margin:auto;
+    margin-bottom: 10px;;
+}
+.btn:hover{
+    color: black;
+    background-color:burlywood;
+    border-color:chocolate;
+}
+.footer{
+    margin-top: 15px;
+    background-color: rgba(131, 158, 132, 0.7) ;
+
+}
+.footer ul{
+    display:flex;
+    margin-right: 10px;;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 0;;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+.copyright{
+    display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.photo_credit{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+}
+img { 
+    width: 300px;
+	height: 300px;
+	transition: all 1s;
+    margin:15px 5px 15px 5px;
+
+}
+img:hover {
+	transform: scale(1.1);
+}
+#im:hover{
+    transform: rotate(5deg);
+}
